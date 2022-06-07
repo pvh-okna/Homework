@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.title{
+	margin: 15px 300px ;
+	text-align: center;
+}
+hr{
+	border: none;
+	border-top: 1px solid rgb(236, 121, 121 ) ;
+	color: rgb(236, 121, 121 );
+	margin: 25px 45% 15px 45%;
+}
+p{
+	padding-top: 5px;
+}
+.description
+{
+	display: inline-block;
+	width: 344px;
+	margin-left: 21px;
+	padding: 1px 36px;
+}
+.icon{
+	display: inline-block;
+	width: 359px;
+	margin-left:5px;
+}
+.idea{
+	text-align: center;
+}
+.account{
+	text-align: center;
+}
