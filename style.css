@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.title{
+/*.title{
 	margin: 15px 300px ;
 	text-align: center;
 }
@@ -13,12 +13,6 @@ hr{
 	border-top: 1px solid rgb(236, 121, 121 ) ;
 	color: rgb(236, 121, 121 );
 	margin: 25px 45% 15px 45%;
-}
-.small{
-	padding-top: 5px;
-}
-.big{
-	padding-top: 30px;
 }
 .description
 {
@@ -37,10 +31,16 @@ hr{
 }
 .account{
 	text-align: center;
-}
+}*/
 .banner{
 	font-family: 'Open Sans', sans-serif;
 	padding-top:50px;
+}
+.small{
+	padding-top: 5px;
+}
+.big{
+	padding-top: 30px;
 }
 .content{
 	font-family: 'Raleway', sans-serif;
@@ -72,22 +72,17 @@ hr{
 .tabs>input[type="radio"] {
 	display: none;
 }
-
 .tabs>div {
 	display: none;
 	border: 1px solid #e0e0e0;
 	font-size: 16px;
 }
-
- /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
 	#tab-btn-1:checked~#content-1,
 	#tab-btn-2:checked~#content-2,
 	#tab-btn-3:checked~#content-3 {
 	display: flex;
 }
-
 .tabs>label {
-	
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-size: 14px;
@@ -103,11 +98,9 @@ hr{
 	position: relative;
 	top: 1px;
 }
-
 .tabs>label:not(:first-of-type) {
 	border: none;
 }
-
 .tabs>input[type="radio"]:checked+label {
 	position: relative;
    background: #ffffff;
