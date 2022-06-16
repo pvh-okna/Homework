@@ -24,16 +24,13 @@ font-size:large;
 .parent{
 	display: flex;
 	justify-content: center;
-
 }
 .tables{
 	border:2px solid #F5F5F5;
 	margin: 15px;
 	margin-top: 50px;
 	width: 370px;
-	
 	text-align: center;
-
 }
 th{
 	background-color: #333333;
