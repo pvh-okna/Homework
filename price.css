@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
+h6{
+	color: #86878B;
+}
+.line::after{
+	content: "";
+	display: flex;
+	border: none;
+	border-top: 1px solid rgb(236, 121, 121 ) ;
+	margin: 21px 45% 15px 45%;
+}
+.price{
+width: 1508px;
+height: 900px;
+margin-top: 50px;
+padding-top: 50px;
+padding-left: 30px;
+background: #F5F5F5;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size:large;
+
+}
+.parent{
+	display: flex;
+	justify-content: center;
+
+}
+.tables{
+	border:2px solid #F5F5F5;
+	margin: 15px;
+	margin-top: 50px;
+	width: 370px;
+	
+	text-align: center;
+
+}
+th{
+	background-color: #333333;
+	color:white;
+}
+.tables:hover{
+	position: relative;
+	top:-20px;
+	box-shadow:0 0 10px  #86878B;
+}
+td{
+	background-color: white;
+	color:#86878B;
+	height: 40px;
+}
+.ban{
+	font-family: 'Open Sans', sans-serif;
+	height: 50px;
+}
+.money{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	height: 100px;
+	font-size: 36px;
+}
+.third{
+	background-color: #333333;
+}
