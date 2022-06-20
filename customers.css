@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
+.rectangle{
+	width: 370px;
+   height: 170px;
+   background-color: #E2E2E2;
+   border-radius: 10px;
+   text-align: center;
+   padding-top: 47px;
+   color: #86878B;
+}
+.triangle
+	{
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-top: 20px solid #E2E2E2;
+   position: relative;
+   left: 59px;
+   margin-bottom: 30px;
+	}
+.photo{
+	display:flex;
+   margin-left:-65px;
+   justify-content: center;
+}
+.opinion{
+   display: flex;
+   margin: 50px 100px;
+}
+.job{
+   position: relative;
+   top:58px;
+   left:-155px;
+}
+.user{
+   margin-top:18px;
+   margin-left: 30px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+}
+.comment{
+   margin:20px;
+}
+.middle{
+   padding-left:40px;
+}
+.last{
+   padding-left:30px;
+}
