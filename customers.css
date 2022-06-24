@@ -27,6 +27,8 @@
 .opinion{
    display: flex;
    margin: 50px 100px;
+   position: relative;
+   left: 64px;
 }
 .job{
    position: relative;
@@ -40,11 +42,14 @@
    font-weight: 700;
 }
 .comment{
-   margin:20px;
+   margin:20px 16px;
 }
 .middle{
    padding-left:40px;
 }
 .last{
    padding-left:30px;
+}
+.title{
+   width: 918px;
 }
